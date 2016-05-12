@@ -12,6 +12,7 @@ module OmniAuth
       option :token_params, {
         :parse          => :json
       }
+      option :image_size, :middle
 
       uid do
         raw_info['id']
